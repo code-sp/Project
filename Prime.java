@@ -6,6 +6,7 @@ public class Prime {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number to check Prime: ");
         int num = scanner.nextInt();
+        scanner.close();
         if(num==1){
             System.out.println("Neither prime nor composite");
         }
